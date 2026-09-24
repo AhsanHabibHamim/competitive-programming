@@ -116,7 +116,7 @@ gdb --version
 ### Clone
 
 ```bash
-git clone https://github.com/<your-username>/competitive-programming.git
+git clone https://github.com/AhsanHabibHamim/competitive-programming.git
 cd competitive-programming
 ```
 
@@ -226,8 +226,8 @@ Folders and files use lowercase letters and hyphens. No spaces.
 **Ahsan Habib Hamim**
 Dhaka, Bangladesh
 
-- GitHub: [@your-username](https://github.com/AhsanHabibHamim)
-- LinkedIn: [your-profile](https://www.linkedin.com/in/ahsan_hamim)
+- GitHub: [@AhsanHabibHamim](https://github.com/AhsanHabibHamim)
+- LinkedIn: [Ahsan Habib Hamim](https://www.linkedin.com/in/ahsan_hamim)
 
 ## License
 
