@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run-current-file",
+      "type": "shell",
+      "command": "${workspaceFolder}/.vscode/build.sh",
+      "args": ["run", "${file}", "${workspaceFolder}"],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "focus": true, "clear": true, "panel": "shared" },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build-debug",
+      "type": "shell",
+      "command": "${workspaceFolder}/.vscode/build.sh",
+      "args": ["debug", "${file}", "${workspaceFolder}"],
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

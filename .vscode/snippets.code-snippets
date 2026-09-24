@@ -1,0 +1,73 @@
+{
+  "C main": {
+    "scope": "c",
+    "prefix": "cmain",
+    "body": [
+      "#include <stdio.h>",
+      "",
+      "int main(void) {",
+      "    $0",
+      "    return 0;",
+      "}"
+    ]
+  },
+  "C++ main": {
+    "scope": "cpp",
+    "prefix": "cppmain",
+    "body": [
+      "#include <iostream>",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "    $0",
+      "    return 0;",
+      "}"
+    ]
+  },
+  "CP template": {
+    "scope": "cpp",
+    "prefix": "cp",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "using ll = long long;",
+      "#define all(x) (x).begin(), (x).end()",
+      "",
+      "#ifdef LOCAL",
+      "#define dbg(x) cerr << \"[\" << #x << \"] = \" << (x) << endl",
+      "#else",
+      "#define dbg(x)",
+      "#endif",
+      "",
+      "void solve() {",
+      "    $0",
+      "}",
+      "",
+      "int main() {",
+      "    ios::sync_with_stdio(false);",
+      "    cin.tie(nullptr);",
+      "",
+      "    int t = 1;",
+      "    // cin >> t;",
+      "    while (t--) solve();",
+      "    return 0;",
+      "}"
+    ]
+  },
+  "C scanf int": {
+    "scope": "c",
+    "prefix": "sci",
+    "body": ["int ${1:n};", "scanf(\"%d\", &${1:n});"]
+  },
+  "C++ read vector": {
+    "scope": "cpp",
+    "prefix": "rdv",
+    "body": [
+      "int ${1:n};",
+      "cin >> ${1:n};",
+      "vector<int> ${2:a}(${1:n});",
+      "for (auto &x : ${2:a}) cin >> x;"
+    ]
+  }
+}
